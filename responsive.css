@@ -28,6 +28,10 @@
     text-align: center;
 }
 .My-Current-Target-card-container{
+ 
+    gap: 30px;
+}
+.My-Current-Target-card-container{
      flex-direction: column;
 }
 .My-Current-Target-card{
@@ -68,8 +72,18 @@ footer{
 .heading-content h2{
     font-size: 25px;
 }
+.heading-content h4{
+    font-weight: 500;
+    font-size: 13 px;
+    line-height: 30px;
+    
+}
+.My-Current-Target-card-container{
+ 
+    gap: 30px;
+}
 .Why-Web-Development-card-content h2{
- font-size:25px ;
+ font-size:28px ;
 
 }
 .Why-Web-Development-card-content p{
@@ -85,14 +99,14 @@ footer{
     
    justify-content: center;
 } 
-.Commitment p{
+.footer-content p{
   font-size: small;
 }
 .social-link img{
     margin-right: 0 px;
     width: 20px;
 }
-.Commitment p{
+.footer-content p{
  font-size: 15 px ;
 }
 
