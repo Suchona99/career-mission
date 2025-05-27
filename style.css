@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(#B8E7FA , #E6E6FA);
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.btn button{
+    background-image: linear-gradient(#FFA500 ,#FFD447);
+    padding: 17px 24px;
+    font-size:20px ;
+    border-radius:10px ;
+    border: none;
+   cursor: pointer;
+    font-weight: 600;
+    color: #0D1321;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn button:hover{
+   background-image: linear-gradient(skyblue ,rgb(194, 225, 237));
+   color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.heading-content{
+    text-align: center;
+}
+.heading-content h2{
+    
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.heading-content h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    word-spacing: 5px;
+    margin-bottom: 48px;
+      color: #0D1321;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E6E6FA;
+    padding: 24px;
+}
+.navbar h1{
+    color:#0D1321 ;
+    font-size: 28px;
+    font-weight: 900 ;
+}
+.navbar h1 span{
+    color: #FFA500;
+}
+/* banner */
+.banner{
+    margin: 100px auto 120px auto;
+    width: 87.5%;
+     border-radius: 16px;
+    background-color: #E6EDF9;
+    border:2px solid #E6EDF9;
+    padding: 40px 60px;
+    background-image: url(./img/hero-bg.png);
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+   
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+.banner p{
+      color: #949494;
+      line-height: 30px;
+      font-size: 16px;
+      word-spacing: 3px;
+
+}
+.banner *{
+    margin-bottom: 20px;
+}
+/* Why Web Development */
+
+.Why-Web-Development ,
+.My-Current-Target ,
+.My-Inspiration {
+    margin: 0 auto 120px auto;
+     width: 87.5%;
+    
+}
+.Why-Web-Development-card-container{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 48px 48px;
+    background-color: #E6EDF9;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+}
+.Why-Web-Development-card-content h2{
+ font-size:24px ;
+ font-weight: bold
+ 
+}
+.Why-Web-Development-card-content p{
+   color: #949494;
+     line-height: 30px;
+     word-spacing: 5px;
+}
+.Why-Web-Development-card-content *{
+    margin-bottom: 20px;
+}
+.Why-Web-Development-card-content{
+    width: 60%;
+}
+.Why-Web-Development-card-img{
+    width: 40%;
+} 
+/* My-Inspiration */
+
+.My-Inspiration-box{
+    padding: 32px 32px ;
+    height: 620px;
+    border: 2px solid #0D132120;
+    border-radius: 16px ;
+
+}
+iframe{
+    border-radius: 16px;
+}
+
+/* My-Current-Target */
+.My-Current-Target-card-container{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+}
+.My-Current-Target-card{
+    background-color: white;
+    padding: 40px 40px ;
+    text-align: left;
+    width: 364px;
+    height: 244px;
+    border-radius: 30px;
+    margin-top: 20px;
+     background-image: linear-gradient(#E6EDF9 ,#9DE5FF);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.My-Current-Target-card *{
+    margin-bottom: 20px;
+}
+.My-Current-Target-card a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background-color: #FFFFFF;
+}
+.Commitment p{
+ font-weight: 700;
+ font-size: 20px ;
+}
+.social-link img{
+    margin-right: 15px;
+    width: 30px;
+}

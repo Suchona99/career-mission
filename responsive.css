@@ -1,0 +1,99 @@
+/* laptop device */
+
+@media screen and (max-width:1200px) {
+     .banner h1{
+    font-size:38px;
+}
+  .My-Current-Target-card{
+    width: 300px; 
+}
+}
+
+
+/* tablet device */
+
+@media screen and (max-width:1024px) {
+ .banner h1{
+    font-size: 35px;
+} 
+
+.Why-Web-Development-card-container{
+    flex-direction: column-reverse;
+    gap: 20px;
+    
+}
+
+.Why-Web-Development-card-content{
+    width: 100%;
+    text-align: center;
+}
+.My-Current-Target-card-container{
+     flex-direction: column;
+}
+.My-Current-Target-card{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+   
+} 
+
+}
+
+/* mobile device */
+
+@media screen and (max-width:640px) {
+.navbar{
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    
+} 
+.btn button{
+    padding: 12px 18px;
+    font-size:15px ; 
+} 
+.banner p{
+      font-size: 25px;
+      line-height: 20px;
+      font-size: 16px;
+}
+ .banner h1{
+    font-size: 30px;
+} 
+.heading-content h2{
+    font-size: 25px;
+}
+.Why-Web-Development-card-content h2{
+ font-size:25px ;
+
+}
+.Why-Web-Development-card-content p{
+     line-height: 20px;
+}
+.Why-Web-Development-card-img{
+    width: 100%;
+} 
+.Why-Web-Development-card-img img{
+    width: 100%;
+} 
+footer{
+    
+   justify-content: center;
+} 
+.Commitment p{
+  font-size: small;
+}
+.social-link img{
+    margin-right: 0 px;
+    width: 20px;
+}
+.Commitment p{
+ font-size: 15 px ;
+}
+
+}
